@@ -1,0 +1,31 @@
+{
+  "name": "backend-apis",
+  "version": "1.0.0",
+  "description": "PortableID Issuer and Verifier APIs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SSI-project/backend-apis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SSI-project/backend-apis/issues"
+  },
+  "homepage": "https://github.com/SSI-project/backend-apis#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "postgres": "^3.4.0",
+    "redis": "^4.6.11",
+    "jsonwebtoken": "^9.1.0",
+    "bcryptjs": "^2.4.3",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1"
+  }
+}
